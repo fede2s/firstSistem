@@ -1,6 +1,6 @@
 ##Este programa almacena datos de alumnos de una universidad, permite agregar, buscar, eliminar e imprimir usuarios.
 
-import os
+import os #me permite usar comandos de consola windows
 ##La totalidad de alumnos y sus datos se almacenarán en una lista de diccionarios llamada alumnos
 alumnos=[]
 ##La tupla comentada, es una tupla mas acorde a la realidad, pero que dificulta pruebas durante el desarrollo
