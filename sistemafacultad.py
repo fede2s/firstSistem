@@ -1,8 +1,14 @@
-import os
+##Este programa almacena datos de alumnos de una universidad, permite agregar, buscar, eliminar e imprimir usuarios.
 
+import os
+##La totalidad de alumnos y sus datos se almacenarán en una lista de diccionarios llamada alumnos
 alumnos=[]
+##La tupla comentada, es una tupla mas acorde a la realidad, pero que dificulta pruebas durante el desarrollo
+##La tupla contiene los datos que darán forma al diccionario que tendrá los datos de cada alumno de una facultad
 ##datos=('legajo','nombre','apellido','dni','carrera','sede','mail','telefono')
 datos=('legajo','nombre')
+
+##Como se imprime en reiteradas ocasiones una línea para separar usuarios, almacenamos un string con guiones
 guiones='-------------------------------------'
 ingreso=''
 
